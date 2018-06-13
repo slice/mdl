@@ -75,7 +75,7 @@ def download_interactive(uri, dest)
   require 'down'
   require 'tty-progressbar'
 
-  bar = TTY::ProgressBar.new('Downloading. :eta seconds remaining. [:bar] (:percent)') do |config|
+  bar = TTY::ProgressBar.new('Downloading. :eta remaining. [:bar] (:percent)') do |config|
     config.total = 20
     config.complete = '█'
     config.head = '█'
