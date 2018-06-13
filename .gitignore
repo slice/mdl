@@ -1,1 +1,11 @@
+/.mypy_cache
+*.pyc
+__pycache__
+
+# pypi/setuptools
+/build
+/dist
+/*.egg-info
+
+# mac
 .DS_Store
