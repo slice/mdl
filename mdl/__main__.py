@@ -1,1 +1,0 @@
-from .curse import Curse
